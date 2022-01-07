@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>ABFYE Resources</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="top-container" id="top"></div>
+        <div class="header" id="myHeader">
+            <ul>
+                <li id="left"><b>ABFYE</b></li>
+                <li id="right"><a href="contact.html">Contact</a></li>
+                <li id="right"><a href="#top">Resources</a></li>
+                <li id="right"><a href="regulations.html">Regulations</a></li>
+                <li id="right"><a href="news.html">News</a></li>
+                <li id="right"><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+        </script>
+    </body>
+</html>

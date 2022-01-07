@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.header {
+  padding: 0px 0px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.header li#right {
+  float: right;
+  font-size: 20pt;
+}
+.header li#left {
+  float: left;
+  font-size: 20pt;
+}
+.header li#left b {
+  color: blue;
+}
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+}
+.header li  {
+    display: block;
+    padding: 5px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration:none;
+    color: green;
+}
+
+.top-container {
+    /* The image used */
+    background-image: url("../image/top_image.JPG");
+  
+    min-height: 30%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  padding: 0px;
+}
+.content .first{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.content .second{
+  max-height: 50%;
+  overflow:hidden;
+  background-color: #dddddd;
+}
+.content .second img{
+  max-width: 60%;
+  float: right;
+  position: center;
+  padding: 10px;
+}
+.content .second .description{
+  padding-left: 10px;
+}
+.content .third{
+  max-height: 50%;
+  overflow:hidden;
+  background-color: #ffffff;
+}
+.content .third img{
+  max-width: 60%;
+  float: left;
+  position: center;
+  padding: 10px;
+}
+.content .third .description{
+  text-align: left;
+  padding: 10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(99, 94, 93);
+  color: white;
+}

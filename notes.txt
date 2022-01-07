@@ -1,0 +1,4 @@
+Home, resources, regulations, news, contact. 
+keep menu, top image, footer.
+home: add partnering org, image list
+last: add overlay
