@@ -1,0 +1,36 @@
+.content {
+    padding: 0px;
+  }
+  .content .first{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .content .second{
+    max-height: 50%;
+    overflow:hidden;
+    background-color: #dddddd;
+  }
+  .content .second img{
+    max-width: 60%;
+    float: right;
+    position: center;
+    padding: 10px;
+  }
+  .content .second .description{
+    padding-left: 10px;
+  }
+  .content .third{
+    max-height: 50%;
+    overflow:hidden;
+    background-color: #ffffff;
+  }
+  .content .third img{
+    max-width: 60%;
+    float: left;
+    position: center;
+    padding: 10px;
+  }
+  .content .third .description{
+    text-align: left;
+    padding: 10px;
+  }

@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+/* Header */
+.header {
+  padding: 0px 0px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.header div#right{
+  text-align: right;
+}
+.header li#right {
+  display:inline;
+  font-size: 20pt;
+}
+.header li#right a:hover {
+  color: white;
+}
+.header li#left {
+  float: left;
+  font-size: 20pt;
+}
+.header li#left b {
+  color: blue;
+}
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+}
+.header li  {
+    display: block;
+    padding: 5px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.header .icon {
+  font-size: 35;
+  display: none;
+}
+
+a {
+    text-decoration:none;
+    color: green;
+}
+
+@media screen and (max-width: 800px) {
+  .header a {display: none;}
+  .header a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header.responsive {position: relative;}
+  .header.responsive .icon {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .header.responsive a{
+    display:inline;
+    display: block;
+    text-align: right;
+  }
+  .header.responsive li#right{
+    display:inline;
+  }
+}
+
+
+
+/* top image  */
+.top-container {
+    /* The image used */
+    background-image: url("../image/top_image.JPG");
+  
+    min-height: 30%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(99, 94, 93);
+  color: white;
+}
