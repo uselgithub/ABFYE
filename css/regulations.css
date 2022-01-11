@@ -1,0 +1,25 @@
+.first{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.first h1{
+    font-size: 40px;
+}
+
+.first p{
+    padding-left: 5%;
+    font-size: 25px
+}
+
+.second{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+    color: red;
+}
+
+.second a{
+    font-weight: bold;
+}

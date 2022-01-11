@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title>ABFYE Regulations</title>
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/regulations.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="top-container" id="top"></div>
+    <div class="header" id="myHeader">
+      <ul>
+        <li id="left"><b>ABFYE</b></li>
+        <div id="right">
+          <li id="right"><a href="javascript:void(0);" class="icon" onclick="iconFunction()">
+              <i class="fa fa-bars"></i>
+          </a></li>
+          <li id="right"><a href="../index.html">Home</a></li>
+          <li id="right"><a href="news.html">News</a></li>      
+          <li id="right"><a href="resources.html">Resources</a></li>
+          <li id="right"><a href="#top">Regulations</a></li>
+          <li id="right"><a href="contact.html">Contact</a></li>
+        </div>
+      </ul>
+    </div>
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+
+      function iconFunction() {
+        var x = document.getElementById("myHeader");
+        if (x.className === "header") {
+          x.className += " responsive";
+        } else {
+          x.className = "header";
+        }
+      }
+    </script>
+    <div class="content">
+      <div class="first">
+        <h1>Game Rules and Regulations</h1>
+        <p>1. Football field of 6 meter square will be provide.</p>
+        <p>2. Each team can have 3 robot at max, restricted by Soccer Robot Requirement & Constraints.</p>
+        <p>3. One robot handler each team</p>
+        <p>4. Two stage match, with overtime match.</p>
+        <p>5. Three timeouts of 30 seconds can be called by each team.</p>
+        <p>6. Referee can command the game such as stop, halt.</p>
+        <p>7. Sanctions will be given to team for rule violation.</p>
+      </div>
+      <div class="second">
+        
+        <p>Please refer to the <a href="../download/regulation.pdf" download="filename">document</a> for detailed game rules and regulations</p>
+      </div>
+    </div>
+    
+    <footer>
+      <p>
+        Author: example<br />
+        <a href="mailto:example@example.com">example@example.com</a>
+      </p>
+    </footer>
+  </body>
+</html>
