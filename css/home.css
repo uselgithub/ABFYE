@@ -4,23 +4,42 @@
 .content .first {
   text-align: center;
   padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
+
+.content .first h1 {
+  font-size: 50px;
+}
+
+.content .first p {
+  font-size: 25px;
+}
+
 .content .second {
-  max-height: 50%;
   overflow: hidden;
-  background-color: #dddddd;
+  background-color: #e7ffe7;
 }
 .content .second img {
   max-width: 60%;
   float: right;
   position: center;
-  padding: 10px;
+  padding-left: 10px
 }
 .content .second .description {
-  padding-left: 10px;
+  padding-left: 3%;
 }
+
+.content .second h1 {
+  font-size: 40px;
+}
+
+.content .second p {
+  font-size: 23px;
+  max-width: 45%;
+}
+
 .content .third {
-  max-height: 50%;
   overflow: hidden;
   background-color: #ffffff;
 }
@@ -28,9 +47,47 @@
   max-width: 60%;
   float: left;
   position: center;
-  padding: 10px;
+
 }
 .content .third .description {
+  max-width: 45%;
+  float: right;
   text-align: left;
-  padding: 10px;
+  padding-right: 3%;
+}
+
+.content .third h1 {
+  font-size: 40px;
+}
+
+.content .third p {
+  font-size: 23px;
+}
+
+.content .fourth {
+  overflow: hidden;
+  background-color: #e7ffe7;
+}
+.content .fourth img {
+  max-width: 60%;
+  float: right;
+  position: center;
+  padding-left: 10px
+}
+.content .fourth .description {
+  padding-left: 3%;
+}
+
+.content .fourth h1 {
+  font-size: 40px;
+}
+
+.content .fourth p {
+  font-size: 23px;
+  max-width: 45%;
+}
+
+.content .fifth {
+  text-align: center;
+  font-size: 25px;
 }
