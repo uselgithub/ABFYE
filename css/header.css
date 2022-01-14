@@ -7,6 +7,9 @@ body {
   padding: 0px 0px;
   background: #555;
   color: #f1f1f1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .header div#right{
