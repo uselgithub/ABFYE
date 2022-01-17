@@ -113,7 +113,14 @@ a {
 
 footer {
   text-align: center;
-  padding: 3px;
-  background-color: rgb(99, 94, 93);
+  padding: 35px;
+  background-color: rgb(0, 51, 102);
   color: white;
+}
+
+footer a{
+  font-size: min(2vw, 20px);
+  color: white; 
+  
+  margin: 0px 10px 0px 10px;
 }
