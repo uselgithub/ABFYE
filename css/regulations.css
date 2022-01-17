@@ -1,22 +1,17 @@
-.first{
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+.content{
+    padding: 5% 15% 5% 15%;
 }
 .first h1{
     font-size: 40px;
 }
 
-.first p{
+.first {
     padding-left: 5%;
     font-size: 25px
 }
 
-.second{
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 25px;
+.second p{
+    font-size: 30px;
     color: red;
 }
 
