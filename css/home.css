@@ -3,17 +3,21 @@
 }
 .content .intro {
   text-align: center;
-  padding-bottom: 20px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 125px 10% 125px 10%
 }
 
 .content .intro h1 {
-  font-size: 50px;
+  font-size: min(8vw, 90px);
+  margin: 0%;
+}
+.content .intro h2 {
+  font-size:  min(7vw, 75px);
+  margin: 0%;
 }
 
 .content .intro p {
-  font-size: 25px;
+  font-size: min(4vw, 35px);
+  margin-top: 75px;
 }
 
 .content .style1 {
@@ -31,11 +35,11 @@
 }
 
 .content .style1 h1 {
-  font-size: 40px;
+  font-size: min(5.5vw, 50px);
 }
 
 .content .style1 p {
-  font-size: 23px;
+  font-size: min(3.5vw, 30px);
   max-width: 45%;
 }
 
@@ -57,14 +61,15 @@
 }
 
 .content .style2 h1 {
-  font-size: 40px;
+  font-size: min(5.5vw, 50px);
 }
 
 .content .style2 p {
-  font-size: 23px;
+  font-size: min(3.5vw, 30px);
 }
 
 .content .bottom {
   text-align: center;
-  font-size: 25px;
+  font-size: min(3vw, 30px);
+  margin: 100px 0px 100px 0px;
 }
