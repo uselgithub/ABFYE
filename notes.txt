@@ -2,3 +2,38 @@ Home, resources, regulations, news, contact.
 keep menu, top image, footer.
 home: add partnering org, image list
 last: add overlay
+
+
+
+Header right margin balance
+header logo left margin
+phone nav bar right margin
+
+add partnering org, sponsor, image list
+
+dynamic font size to fit phone screen use vh vw
+Bright Future Cup font-size larger
+Robo soccer competiton font-size remains
+
+Join now smaller.
+
+more margin, tidier
+
+News -> announcement
+jQuery include external html for each announcement
+simple ver: html grid, same div
+
+footer: add nav, add UST logo on left, follow UST color PANTONE295
+
+https://pao.ust.hk/Bdownload/HKUST_Brand_guideline.pdf
+follow color, HKUST logo.
+
+Resources : video size. expect more video.
+
+May put video in new tab: gallery,
+resources for all kind of info.
+
+Regulations: put the red download line right under title.
+show PDF in new page, not download
+
+Contact: from ABFYE web, include ABFYE URL, logo etc. https://abfye.ust.hk/
